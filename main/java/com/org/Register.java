@@ -42,7 +42,7 @@ String c=request.getParameter("userCountry");
 
 try{
 Class.forName("com.mysql.cj.jdbc.Driver");
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/register","root","S@njay123");
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/register","root","********");
 
 
 
