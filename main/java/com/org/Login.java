@@ -64,7 +64,7 @@ String password = request.getParameter("password");
 try {
 Class.forName("com.mysql.cj.jdbc.Driver");
 System.out.println("connection ready");
-Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/register","root","S@njay123");
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/register","######","*********");
 System.out.println(con);
 
 
